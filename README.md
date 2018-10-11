@@ -1,10 +1,5 @@
-```
-jenv shell 11-ea
-sbt
-> clean
-> compile
+use jdk11 and gradle 4.10.2
 
-[error] /private/tmp/override-in-jdk11/src/main/java/example/Test.java:9:1: reference to get is ambiguous
-[error]   both method get(akka.actor.ActorSystem) in example.TestKitExtension and method get(akka.actor.ActorSystem) in example.TestKitExtension match
-[error]     TestKitExtension.get(a);
+```
+gradle clean build
 ```
