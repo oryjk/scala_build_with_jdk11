@@ -6,6 +6,7 @@ lazy val root = (project in file(".")).
   settings(
     name := "akka-jdk11",
     libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-testkit" % "2.5.13"
+      "com.typesafe.akka" %% "akka-testkit" % "2.5.17",
+      "com.typesafe.akka" %% "akka-cluster" % "2.5.17"
     )
   )

@@ -15,8 +15,6 @@ sourceCompatibility = 1.11
 
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.12.7'
-    compile group: 'com.typesafe.akka', name: 'akka-stream_2.12', version: '2.5.17'
     compile group: 'com.typesafe.akka', name: 'akka-cluster_2.12', version: '2.5.17'
     compile(group: 'com.typesafe.akka', name: 'akka-testkit_2.12', version: '2.5.17')
 }
