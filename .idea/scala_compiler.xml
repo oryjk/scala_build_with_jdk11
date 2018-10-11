@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Gradle 1" modules="override-in-jdk11_main,override-in-jdk11_test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-11" />
+      </parameters>
+    </profile>
+    <profile name="sbt 1" modules="override-in-jdk11_9306,akka-jdk11" />
+  </component>
+</project>
