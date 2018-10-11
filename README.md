@@ -2,7 +2,7 @@
 java version "11" 2018-09-25<p>
 gradle 4.10.2<p>
 akka-cluster_2.12 2.5.17<p>
-
+scala 2.12.7<p>
 download it and execute
 
 ```
